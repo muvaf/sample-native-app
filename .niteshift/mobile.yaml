@@ -1,0 +1,8 @@
+targets:
+  - name: sample-native
+    platform: ios
+    bundleId: com.limrun.sample-native
+    displayName: Sample Native App
+    workingDirectory: .
+    buildCommands:
+      - lim xcode build .
