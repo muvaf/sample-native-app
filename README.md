@@ -54,3 +54,17 @@ Now you can use it in your iOS instances!
 ```bash
 lim run ios --install-asset=sample-native-app.app.tar.gz
 ```
+
+## Branch pull request browser
+
+Branch is a SwiftUI pull request browser with a demo workspace and a public GitHub repository loader.
+Search by title, author, repository, or number; filter Open, Closed, Draft, or All;
+open descriptions and bookmark pull requests for later. Bookmarks persist locally across launches
+and repository changes. The GitHub button opens the original pull request in the browser.
+
+Choose the repository menu, enter `owner/repository`, and load up to 50 recent public pull
+requests. No token is needed. Private repositories, posting reviews, and merging are outside
+this version. GitHub may rate-limit anonymous requests; errors are shown in the app.
+Demo review states and diff counts are examples; live results do not invent these values.
+
+Build with `ns mobile build branch` or `lim xcode build . --scheme sample-native-app --configuration Debug`.
