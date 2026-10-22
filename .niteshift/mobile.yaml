@@ -1,0 +1,7 @@
+targets:
+  - name: branch
+    bundleId: com.limrun.sample-native
+    platform: ios
+    displayName: Branch
+    buildCommands:
+      - lim xcode build . --scheme sample-native-app --configuration Debug
